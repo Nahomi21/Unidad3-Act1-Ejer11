@@ -1,4 +1,4 @@
-# test_app.py
+from main import saludo
 
-def test_sum():
-    assert 2 + 3 == 5
+def test_saludo():
+    assert saludo("Nahomi") == "Hola, Nahomi! Bienvenido/a al sistema."
