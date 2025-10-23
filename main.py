@@ -1,4 +1,4 @@
-def saludo(nombre):
+﻿def saludo(nombre):
     return f"Hola, {nombre}! Bienvenido/a al sistema."
 
 if __name__ == "__main__":
